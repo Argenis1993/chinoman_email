@@ -1,3 +1,6 @@
+--Autor: Argenis García Zetina
+--Fecha: 14/07/2016
+
 CREATE DATABASE chinomanMail;
 
 \c chinomanmail
