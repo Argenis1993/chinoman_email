@@ -18,7 +18,7 @@ CREATE TABLE Usuarios (
 CREATE TABLE Mensajes (
 	idMensaje			serial,
 	idRemitente			int NOT NULL,
-	fecha				timestamp,
+	fecha				timestamp NOT NULL,
 	asunto				varchar(256),
 	mensaje				text,
 	estatus				int NOT NULL, -- 1 Enviados, 2 Borradores, 3 Papelera
